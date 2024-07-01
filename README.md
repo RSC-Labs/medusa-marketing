@@ -123,13 +123,7 @@ The only thing which we can check is `Plugin -> Email transport` relation. Becau
 
 ### Settings
 
-To configure action, you need to firstly go to `Settings`. As an example, let's use `Back in stock`. You will see such view:
-
-<p align="center">
-  <picture>
-    <img alt="Medusa marketing dashboard" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-3.png">
-  </picture>
-</p>
+To configure action, you need to firstly go to `Settings`. As an example, let's use `Back in stock`.
 
 Let's go through every setting:
 - `See trigger and parameters` - click on the icon and you will see what is a exact trigger and what parameters you can use in your templates.
