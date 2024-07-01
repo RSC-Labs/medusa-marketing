@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great News! {{product_title}} ({{variant_title}}) is Back in Stock!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #444;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Great News! {{product_title}} ({{variant_title}}) is Back in Stock!</h1>
+        <p>Hi {{first_name}} {{last_name}},</p>
+        <p>We’ve got exciting news for you! The product you’ve been waiting for, <strong>{{product_title}} ({{variant_title}})</strong>, is now back in stock at <strong>shop</strong>.</p>
+        <img src='{{product_thumbnail}}' alt="Shop" width="500" height="600">
+        <p>Don’t miss out! Click the link below to grab yours before it’s gone again.</p>
+        <a href="[Link to Product]" class="cta">Get {{product_title}} ({{variant_title}}) Now</a>
+        <p></p>
+        <p>If you have any questions or need assistance, feel free to reach out.</p>
+        <p>Happy shopping!</p>
+        <p>Best regards,</p>
+        <p>Your Shop Team</p>
+    </div>
+</body>
+</html>
