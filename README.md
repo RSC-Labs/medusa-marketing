@@ -4,8 +4,6 @@
   </picture>
 </p>
 
-# WORK IN PROGRESS!
-
 # Medusa Marketing
 
 ## What is it?
@@ -102,7 +100,7 @@ After running Medusa, you will see new option on the sidebar named `Marketing`. 
 
 <p align="center">
   <picture>
-    <img alt="Medusa marketing dashboard" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-dashboard.PNG">
+    <img alt="Medusa marketing dashboard" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-1.PNG">
   </picture>
 </p>
 
@@ -126,6 +124,12 @@ The only thing which we can check is `Plugin -> Email transport` relation. Becau
 ### Settings
 
 To configure action, you need to firstly go to `Settings`. As an example, let's use `Back in stock`. You will see such view:
+
+<p align="center">
+  <picture>
+    <img alt="Medusa marketing dashboard" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-3.PNG">
+  </picture>
+</p>
 
 Let's go through every setting:
 - `See trigger and parameters` - click on the icon and you will see what is a exact trigger and what parameters you can use in your templates.
