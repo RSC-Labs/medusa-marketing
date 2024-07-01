@@ -100,7 +100,7 @@ After running Medusa, you will see new option on the sidebar named `Marketing`. 
 
 <p align="center">
   <picture>
-    <img alt="Medusa marketing dashboard" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-1.PNG">
+    <img alt="Medusa marketing dashboard" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-1.png">
   </picture>
 </p>
 
@@ -127,7 +127,7 @@ To configure action, you need to firstly go to `Settings`. As an example, let's 
 
 <p align="center">
   <picture>
-    <img alt="Medusa marketing dashboard" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-3.PNG">
+    <img alt="Medusa marketing dashboard" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-3.png">
   </picture>
 </p>
 
