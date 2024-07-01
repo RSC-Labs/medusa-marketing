@@ -1,5 +1,5 @@
 {
-  "name": "medusa-marketing",
+  "name": "@rsc-labs/medusa-marketing",
   "version": "0.1.0",
   "description": "Send messages to your customers",
   "main": "dist/index.js",

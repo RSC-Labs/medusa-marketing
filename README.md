@@ -1,8 +1,10 @@
 <p align="center">
   <picture>
-    <img alt="Medusa marketing logo" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/d41b6dadafc1a01094b1db976676eee048709f2e/docs/medusa-marketing-logo.png">
+    <img alt="Medusa marketing logo" src="https://raw.githubusercontent.com/RSC-Labs/medusa-marketing/main/docs/medusa-marketing-logo.png">
   </picture>
 </p>
+
+# WORK IN PROGRESS!
 
 # Medusa Marketing
 
@@ -104,8 +106,6 @@ After running Medusa, you will see new option on the sidebar named `Marketing`. 
   </picture>
 </p>
 
-
-**_NOTE:_** This README describes `Invoice` as an example of document.
 
 This is a view of configured emails and useful statistics. Let's now describe it shortly:
 - `Welcome` and `Back in stock` cards indicates two actions which can be configured. There can be more in the future. You can notice there following information:
