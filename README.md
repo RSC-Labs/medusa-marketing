@@ -135,6 +135,10 @@ After choosing a template, you will see an email preview. Preview is based on th
 
 Now, you can click save and if you enabled the action, then messages will be send automatically to clients.
 
+### Subscriptions
+
+Some actions (like `back in stock`) requires subscribers. In other words - customer needs subscribe for the action to get an email. We expose APIs which can be used in your Storefront. For more info please check: [Store API](./src/api/store/README.md)
+
 ## Q&A
 
 ### Why it is so complicated?

@@ -1,0 +1,122 @@
+openapi: 3.0.1
+info:
+  version: "1.0"
+  title: "Subscriptions"
+  description: |
+   This API provides possibility to subscribe for various entities. IMPORTANT: This API requires logged-in customer. For more info see: https://docs.medusajs.com/development/api-routes/create#protect-store-api-routes
+paths:
+  /store/me/subscribe/back-in-stock:
+    post:
+      tags:
+      - "back-in-stock"
+      summary: "Subscribe for variant when will be back in stock"
+      parameters:
+      - name: "variantId"
+        in: "query"
+        required: true
+        schema:
+          type: "string"
+      requestBody:
+        description: Variant to subscribe
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                variantId:
+                  type: string
+                  nullable: false
+                 
+      responses:
+        "201":
+          description: "Return subscription object"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result: 
+                    $ref: '#/components/schemas/MarketingSubscription'
+        "400":
+          description: "Not OK"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    nullable: false
+  /store/me/unsubscribe:
+    post:
+      tags:
+        - "unsubscribe"
+      summary: "Unsubscribe"
+      parameters:
+      - name: "emailType"
+        in: "query"
+        required: true
+        schema:
+          type: "string"
+      - name: "targetId"
+        in: "query"
+        required: false
+        schema:
+          type: "string"
+      requestBody:
+        description: Unsubscribe for email type (required) and targetId (optional). TargetId is needed if you subscribed already for some entity (e.g. like for variantId).
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                emailType:
+                  type: string
+                  nullable: false
+                targetId:
+                  type: string
+                  nullable: false
+      responses:
+          "201":
+            description: "Return result of unsubscription"
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    result: 
+                      type: boolean
+                      nullable: false
+          "400":
+            description: "Not OK"
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    message:
+                      type: string
+                      nullable: false
+                
+                    
+                    
+components:
+  schemas:
+    MarketingSubscription:
+      type: object
+      properties:
+        id:
+          type: string
+          nullable: false
+        customer:
+          type: object
+          nullable: false
+        email_type:
+          type: string
+          nullable: false
+        target_id:
+          type: string
+          nullable: false
+    

@@ -26,9 +26,6 @@ export const POST = async (
   const variantId: string | undefined = body.variantId;
   const marketingService: MarketingService = req.scope.resolve('marketingService');
 
-  console.log(req);
-  console.log(variantId);
-  
   if (!id) {
     return res.status(400).json({
       message: 'You need to be logged-in to subscribe'

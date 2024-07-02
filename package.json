@@ -1,6 +1,6 @@
 {
   "name": "@rsc-labs/medusa-marketing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Send messages to your customers",
   "main": "dist/index.js",
   "author": "RSC Labs (https://rsoftcon.com)",
