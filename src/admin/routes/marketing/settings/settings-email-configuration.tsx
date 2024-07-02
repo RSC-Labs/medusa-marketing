@@ -303,8 +303,7 @@ const SettingsEmailConfigurationPage = ({ emailType } : { emailType: EmailSentTy
   if (data) {
     return (
       <>
-        <Toaster>
-        </Toaster>
+        <Toaster/>
         <SettingsEmailConfiguration emailType={emailType} emailSettings={data.settings} availableEmailSettings={data.availableSettings}/>
       </>
     )
