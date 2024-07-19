@@ -36,7 +36,7 @@
     "typeorm": "^0.3.16",
     "react-hook-form": "^7.49.2",
     "@emotion/react": "^11.11.3",
-    "@emotion/styled": "11.11.5",
+    "@emotion/styled": "11.12.0",
     "@types/email-templates": "10.0.4",
     "email-templates": "12.0.1"
   },
