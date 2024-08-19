@@ -6,6 +6,10 @@
 
 # Medusa Marketing
 
+<h2>
+  Note: This plugin will be migrated to Medusa v2, when v2 will reach production readiness.
+</h2>
+
 ## What is it?
 
 Medusa Marketing is a plugin which provides a framework for sending emails based on the user's actions.
