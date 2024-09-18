@@ -29,6 +29,8 @@ export default class EmailService extends TransactionBaseService {
       } else {
         this.templateDir = path.resolve(__dirname, DEFAULT_TEMPLATE_DIR);
       }
+      this.logger.info(`Configured email transports: ${JSON.stringify(this.emailTransports)}`)
+      this.logger.info(`Configured template directory: ${this.templateDir}`)
   }
 
   private constructTemplateProperties(templateType: string, templateName: string) : EmailTemplateProperties {
