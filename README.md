@@ -46,8 +46,7 @@ Firstly, you need to configure email transport. You need to modify `medusa-confi
     resolve: "@rsc-labs/medusa-marketing",
     options: {
       enableUI: true,
-    },
-    email_transports: [
+      email_transports: [
         {
           name: 'smtp',
           configuration: {
@@ -61,6 +60,8 @@ Firstly, you need to configure email transport. You need to modify `medusa-confi
           }
         }
       ]
+
+    },
   }
 ```
 
